@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>urn:iweb:32E45F29-66A4-44DD-AFBC-DF1D1E34BBBE</id>
+    <title>Page list Atom feed</title>
+    <updated>2013-11-07T19:57:17+08:00</updated>
+    <link rel="self" href="feed.xml"/>
+    <generator>iWeb</generator>
+    <author>
+        <name>iWeb</name>
+    </author>
+    <entry>
+        <id>urn:iweb:3412BA39-DE38-4F3D-A879-EB97BB31C338</id>
+        <title>照片</title>
+        <title xmlns="urn:iweb:">照片</title>
+        <in-navbar xmlns="urn:iweb:">3412BA39-DE38-4F3D-A879-EB97BB31C338</in-navbar>
+        <link rel="alternate" href="zhao_pian.html"/>
+        <updated>2013-11-07T19:57:17.001+08:00</updated>
+        <content>照片</content>
+    </entry>
+</feed>
