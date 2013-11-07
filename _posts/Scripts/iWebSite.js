@@ -519,9 +519,9 @@ var Enumerable = {each: function (iterator, context) {
     return this.map(function (value, index) {
         return{value: value, criteria: iterator(value, index)};
     }).sort(function (left, right) {
-        var a = left.criteria, b = right.criteria;
-        return a < b ? -1 : a > b ? 1 : 0;
-    }).pluck('value');
+            var a = left.criteria, b = right.criteria;
+            return a < b ? -1 : a > b ? 1 : 0;
+        }).pluck('value');
 }, toArray: function () {
     return this.map();
 }, zip: function () {
@@ -2288,8 +2288,8 @@ Form.Methods = {serialize: function (form, options) {
     var firstByIndex = elements.findAll(function (element) {
         return element.hasAttribute('tabIndex') && element.tabIndex >= 0;
     }).sortBy(function (element) {
-        return element.tabIndex
-    }).first();
+            return element.tabIndex
+        }).first();
     return firstByIndex ? firstByIndex : elements.find(function (element) {
         return['input', 'select', 'textarea'].include(element.tagName.toLowerCase());
     });
